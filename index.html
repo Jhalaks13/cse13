@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator-container">
+        <h2>Student Result Calculator</h2>
+        <p>Click the button below to enter your subject details and calculate your grade.</p>
+        
+        <button id="start-calc-btn">Start Calculation</button>
+
+        <div id="result-box" class="result-box hidden">
+            <h3>Report Card</h3>
+            <hr>
+            <p><strong>Total Marks Obtains:</strong> <span id="res-total">0</span></p>
+            <p><strong>Maximum Marks:</strong> <span id="res-max">0</span></p>
+            <p><strong>Percentage:</strong> <span id="res-percentage">0%</span></p>
+            <p><strong>Final Grade:</strong> <span id="res-grade" class="grade-badge">-</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
